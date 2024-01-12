@@ -1,0 +1,27 @@
+/*
+TITULO:EL USO DECLOS VALORES BOLEANOS 
+AUTOR:ALFREDO TITO BENAVIDES
+DESCRIPCION: LIMITE DE RANGO DE TIPO INT Y USINGNET INT
+FECHA:12/01/2024
+*/
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	//DECLARACION Y USO BOOL 
+	bool b0;
+	b0 = true;
+		cout <<"VARIABLE CON VALOR VERDADERO"<<b0<<endl;
+	b0 = false;
+		cout <<"VARIABLE CON VALOR FALSO"<<b0<<endl;
+	//ASIGNACION DE VALORES NUMERICOS
+	//SI ES CERO ES FALSO, SI ES DIFERENTE DE CERO ES VERDADERO
+	    b0=0; //EL VALOR SE VERA FALSO
+		cout <<"VARIABLE CON VALOR A 0:"<<b0<<endl;
+		b0=1; //EL VALOR SE VERA VERDADERO
+		cout <<"VARIABLE CON VALOR A 1:"<<b0<<endl;
+		b0=-100; //EL VALOR SE VERA VERDADERO
+		cout <<"VARIABLE CON VALOR -1OO:"<<b0<<endl;
+	return 0;
+}
+
