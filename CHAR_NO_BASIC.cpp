@@ -14,40 +14,40 @@ int main() {
 	cout << "Imprimiendo letras con acento:" << endl;
 	
 	// ASIGNANDO VALORES NUMERICOS
-	letra = 181;  // Á en ASCII
+	letra = 181;  // Ã en ASCII
 	cout << "Imprimiendo ASCII 181: " << letra << endl;
 	
-	letra = 144;  // É en ASCII
+	letra = 144;  // Ã‰ en ASCII
 	cout << "Imprimiendo ASCII 144: " << letra << endl;
 	
-	letra = 214;  // Í en ASCII
+	letra = 214;  // Ã en ASCII
 	cout << "Imprimiendo ASCII 214: " << letra << endl;
 	
-	letra = 224;  // Ó en ASCII
+	letra = 224;  // Ã“ en ASCII
 	cout << "Imprimiendo ASCII 224: " << letra << endl;
 	
-	letra = 233;  // Ú en ASCII
+	letra = 233;  // Ãš en ASCII
 	cout << "Imprimiendo ASCII 233: " << letra << endl;
 	
-	letra = 160;  // á en ASCII
+	letra = 160;  // Ã¡ en ASCII
 	cout << "Imprimiendo ASCII 160: " << letra << endl;
 	
-	letra = 130;  // é en ASCII
+	letra = 130;  // Ã© en ASCII
 	cout << "Imprimiendo ASCII 130: " << letra << endl;
 	
-	letra = 161;  // í en ASCII
+	letra = 161;  // Ã­ en ASCII
 	cout << "Imprimiendo ASCII 161: " << letra << endl;
 	
-	letra = 162;  // ó en ASCII
+	letra = 162;  // Ã³ en ASCII
 	cout << "Imprimiendo ASCII 162: " << letra << endl;
 	
-	letra = 163;  // ú en ASCII
+	letra = 163;  // Ãº en ASCII
 	cout << "Imprimiendo ASCII 163: " << letra << endl;
 	
-	letra = 92;  // ú en ASCII
+	letra = 92;  // Ãº en ASCII
 	cout << "Imprimiendo ASCII 92: " << letra << endl;
 
-	letra = 64;  // ú en ASCII
+	letra = 64;  // Ãº en ASCII
 	cout << "Imprimiendo ASCII 64: " << letra << endl;
 	
 	char nombre[]="ALFREDO";
@@ -59,7 +59,15 @@ int main() {
 	cout<< "IMPRIMIENDO NOMBRE[4] '\':"<<nombre[4]<<endl;
 	cout<< "IMPRIMIENDO NOMBRE[5] '\':"<<nombre[5]<<endl;
 	cout<< "IMPRIMIENDO NOMBRE[6] '\':"<<nombre[6]<<endl;
-	
+
+	nombre[0]='a';
+	nombre[1]='l';
+	nombre[2]='f';
+	nombre[3]='r';
+	nombre[4]='e';
+	nombre[5]='d';
+	nombre[6]='o';
+	cout<< "IMPRIMIENDO EL NOMBRE '\':"<<nombre<<endl;
 	return 0;
 }
 
